@@ -5,9 +5,20 @@ This repository contains simple code to get started with generating high-quality
 -----
 ### Getting Started
 
-1. Clone the repo from git
+1. Clone the repo from git and cd into it
 ```bash
-git clone https://Julz19/DataGen
+git clone https://github.com/Julz19/DataGen.git
+cd DataGen
+```
+
+2. Install the dependencies
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the main.py script to get started the fastest and begin generating an example dataset for Mojo Code using the contained documents.json file
+```bash
+python main.py
 ```
 -----
 
